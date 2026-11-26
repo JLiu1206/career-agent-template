@@ -27,9 +27,16 @@ draft with a source for every claim.
 
 ## Quickstart
 
-1. **Get your own private copy.** On the GitHub page, click **Use this
-   template**, choose **Private**, and create it. Then clone your copy. Or
-   run `git clone https://github.com/JLiu1206/career-agent-template my-career-agent`.
+1. **Get your own copy.** Pick one:
+   - **npx** (macOS, Windows, Linux; needs Node 18+ and git):
+     `npx github:JLiu1206/create-career-agent my-career-agent`
+   - **Homebrew** (macOS, Linux):
+     `brew install jliu1206/tap/career-agent`, then `career-agent my-career-agent`
+   - **GitHub:** click **Use this template**, choose **Private**, and clone
+     your copy.
+
+   The npx and Homebrew installers start a fresh git history with no link
+   back to this repo, so your CV can't be pushed here by accident.
 2. **Add your documents.** `cd my-career-agent`, then put your CV and any
    past cover letters, application answers or statements into `inbox/`.
 3. **Start Claude Code:** `claude`
