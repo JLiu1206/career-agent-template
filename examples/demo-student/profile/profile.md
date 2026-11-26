@@ -38,6 +38,14 @@ Transcribed from the current CV. Every fact carries its source.
 
 - Dean's List, Imperial College London, 2024 to 2025. [src: inbox/cv.docx]
 
+## Motivations and interests
+
+- Wants to work on bridges rather than just study them; the footbridge design project is the reason. [src: inbox/Halden internship cover letter.docx]
+- Learns faster when able to see the thing being calculated, so values site inspections early in a role. [src: inbox/Halden internship cover letter.docx]
+- Wants to stay in bridges. The final-year fatigue project has made Ellis more interested in how connections fail over time, and bearings and joints are where a lot of real bridge maintenance happens. [src: inbox/Halden graduate answer.docx]
+- Wants a steep start with real responsibility early, alongside chartership support. [src: inbox/Halden graduate answer.docx]
+- Enjoys working out how to make slow, repetitive checks faster. [src: inbox/Halden graduate answer.docx]
+
 ## Skills
 
 - Python, MATLAB, ANSYS Mechanical, SolidWorks, Excel. [src: inbox/cv.docx]

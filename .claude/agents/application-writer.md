@@ -67,6 +67,12 @@ If the document type or the prompt is missing, return straight away with
    whose competencies match what the question asks. Stories used for other
    organisations are fine.
 4. **Draft.** Answer the actual question in the student's register.
+   - For "why us?", "why this role?" or "why this sector?" questions, build
+     the answer around reasons from `## Motivations and interests` in
+     `profile.md`, then back them with stories and specific organisation
+     details. If no recorded reason fits, don't write a reason-less
+     answer. Return straight away with `MISSING FACTS` asking for one or
+     two reasons.
    - Use only facts with a source in `profile/` or `resolutions.md`. Keep
      every number, grade, rank and title exactly as recorded.
    - Organisation details come from `orgs/<slug>.md`. Use specific ones;
@@ -86,6 +92,7 @@ If the document type or the prompt is missing, return straight away with
    - BLOCK: rewrite the flagged sentences in different words, keep the
      facts, and run it again until CLEAR.
    - ERROR (exit 2): report what it printed. Don't claim CLEAR.
+   - Don't start reviewer agents for the draft. The student reviews it.
 9. **Build the source map.** List every personal claim in the final text with
    the file and section it came from. Any claim you cannot map must be cut
    before you return.

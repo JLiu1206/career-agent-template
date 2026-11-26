@@ -51,12 +51,27 @@ Every other path is read-only to every agent.
 6. Never invent experiences, people, quotes, numbers or outcomes. A
    hypothetical question gets a hypothetical answer.
 7. Exemplars in `style/exemplars/` are voice samples, not fact sources. A
-   fact that appears only in an exemplar is not usable.
+   fact that appears only in an exemplar is not usable. Setup copies the
+   facts and the student's own stated reasons out of their documents into
+   `profile/`, with sources. After that they are usable.
 8. An exemplar with `restricted: <slug>` in its front matter is an
    organisation's own assessment material. Use it only when drafting for
    that slug.
 9. Document dates come from `python3 scripts/extract-docs.py`, never from a
    date printed inside a letter. Templates often carry an old date.
+
+**Motivations**
+
+"Why us?" and "why this role?" answers need the student's real reasons.
+They live in the `## Motivations and interests` section of `profile.md`:
+the student's own statements, each with a source. Never invent a reason. If
+that section has nothing that fits, ask the student for one or two reasons
+before writing the answer.
+
+**Reviews**
+
+The student reviews every draft. Don't start extra reviewer agents for
+drafts unless the student asks, because it makes `/apply` much slower.
 
 **Organisations**
 

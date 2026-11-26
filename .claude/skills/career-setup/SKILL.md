@@ -106,6 +106,8 @@ Ask these together, in one round:
 3. Is anything on the CV out of date or wrong?
 4. Any conflicts you found between documents. For example, a grade or a
    result stated differently in two places: ask which is right.
+5. In a sentence or two, what draws you to the roles you're applying for?
+   This goes in Motivations and interests as `[src: student, <date>]`.
 
 Record the answers to 3 and 4 in `resolutions.md` as
 `[src: student, <YYYY-MM-DD>]`.
@@ -135,6 +137,11 @@ Then add sections:
 - Skills
 - Activities and leadership
 - Awards
+- **Motivations and interests**: the student's own stated reasons and
+  interests, quoted or closely paraphrased from their documents (for
+  example "wants to work on bridges rather than just study them"), each
+  with `[src:]`. Add their answer to question 5 in step 4. "Why us?"
+  answers are built from this section, so don't leave it empty.
 
 Write one fact per bullet, each ending `[src: inbox/<file>]`. Copy grades,
 ranks, dates and titles exactly. Never round them.
